@@ -1,58 +1,30 @@
-<!DOCTYPE html>
-
-<head>
-
-    <meta charset="UTF+8">
-
-        <link rel="stylesheet" href="quotes.css">
-
-    <script defer src="quotes.js"></script>
-
-
-    <title>Random Quotes</title>
-
-</head>
-
-<body>
-
-    <div id="box">
-
-        <img id="letter" src="https://media3.giphy.com/media/L2fF984DE7hIXtScu2/200w.gif">
-
-        <p id="quote">'Freedom is all we need.'</p>
-
-        <img id="line" src="https://www.pngmart.com/files/10/Dotted-Line-PNG-Picture.png">
-
-        <img id="dottedline" src="dottedline.png">
-
-        <span class="caption">
-
-        <p id="character">Hannah Leah,<span class="source" > Source ?,</span class="year"> 2022<span></span></p>
-
-    </span>
-
-    </div>
-
-    <button id="generate" onclick="newQuotes()">New Quote</button>
-
-</body>
-
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Random Quotes</title>
+        <meta name="author" content="Hannah Leah"/>
+        <meta name="description" content="Generate famous quotes from movies"/>
+        <meta name="category" content="quotes"/>
+        <meta name="target" content="all"/>
+        <link rel="stylesheet" href="./quotes.css" type="text/css">
+        <script defer src="./quotes.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <main>
+            <div>
+                <div id="box">
+                    <img id="letter" draggable="false" src="https://media3.giphy.com/media/L2fF984DE7hIXtScu2/200w.gif" alt="Letter opening GIF">
+                    <p id="quote">'Freedom is all we need.'</p>
+                    <img id="line" draggable="false" src="https://www.pngmart.com/files/10/Dotted-Line-PNG-Picture.png" alt="A paper airplane">
+                    <img id="dottedline"  draggable="false" src="./dottedline.png" alt="A straight pink dotted line">
+                    <span class="caption">
+                        <p id="character">Hannah Leah, <span class="source">Source ?,<span class="year">2022</span></span></p>
+                    </span>
+                </div>
+                <button id="generate">New Quote</button>
+            </div>
+        </main>
+    </body>
 </html>
-
-
-
-
-
-<!-------------------------------------------------------------------------------------------------------------------
-   
-    <div id="box">
-
-        <img id="letter" src="https://media3.giphy.com/media/L2fF984DE7hIXtScu2/200w.gif">
-
-        <p class="quote">'Freedom is all we need.'</p>
-
-        <img id="line" src="https://www.pngmart.com/files/10/Dotted-Line-PNG-Picture.png">
-
-        <p class="character">Hannah Leah,<span class="source" > Source ?,</span class="year"> 2022<span></span></p>
-
-    </div>
